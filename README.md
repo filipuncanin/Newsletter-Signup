@@ -1,6 +1,6 @@
 # Newsletter-Signup
 
-# mailchimp API
+mailchimp API
 
 HTML / CSS(Bootstrap) / NodeJs(Express) 
 
