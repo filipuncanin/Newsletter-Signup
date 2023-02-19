@@ -36,7 +36,7 @@ app.post('/', function(req, res) {
         url: 'https://us21.api.mailchimp.com/3.0/lists/b523be9fee', // 'https://<server(end of API key)>.api.mailchimp.com/3.0/lists/<list-id>'
         method: 'POST',
         headers: {
-            Authorization: 'auth 0e9a81e9b975aa1dfa696baf79dae98d-us21'
+            Authorization: 'auth f70ebc3f9d0dc1c7b77b81ff4ac8e06b-us21'
         },
         body: dataPost
     }
@@ -65,7 +65,7 @@ app.listen(process.env.PORT || 3000, function (){
 });
 
 // API Key
-// 0e9a81e9b975aa1dfa696baf79dae98d-us21
+// f70ebc3f9d0dc1c7b77b81ff4ac8e06b-us21
 
 // List ID
 // b523be9fee
