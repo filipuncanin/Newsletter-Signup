@@ -36,7 +36,7 @@ app.post('/', function(req, res) {
         url: 'https://us21.api.mailchimp.com/3.0/lists/b523be9fee', // 'https://<server(end of API key)>.api.mailchimp.com/3.0/lists/<list-id>'
         method: 'POST',
         headers: {
-            Authorization: 'auth f70ebc3f9d0dc1c7b77b81ff4ac8e06b-us21'
+            Authorization: 'auth API'
         },
         body: dataPost
     }
@@ -63,9 +63,6 @@ app.post('/failure', function(req, res) {
 app.listen(process.env.PORT || 3000, function (){
     console.log('Server is running.');
 });
-
-// API Key
-// f70ebc3f9d0dc1c7b77b81ff4ac8e06b-us21
 
 // List ID
 // b523be9fee
