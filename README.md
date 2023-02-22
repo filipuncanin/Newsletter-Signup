@@ -1,4 +1,4 @@
-# Newsletter-Signup
+# Newsletter Signup
 
 ## Used technologies
 <li>HTML</li>
